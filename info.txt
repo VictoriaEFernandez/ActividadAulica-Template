@@ -1,0 +1,3 @@
+Arreglar la seccion principal
+    Poner efectos a la imagen
+Hacer el div conteendor entre en comntedido y las ntoicas
