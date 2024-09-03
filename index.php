@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog De Adopcion</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Template-UCP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--Encabezado-->
     <header>
-        <h1>Blog de Adopcion</h1>
+        <h1>Simple</h1>
         <nav> <!--Menu de navegacion-->
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Entradas</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Contactos</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Contac</a></li>
             </ul>
         </nav>
     </header>
@@ -25,10 +24,11 @@
     <main>
         <div class="contenedor-central">
         <section id="principal">
-            <img src="img/principal.jpeg" alt="Imagen Principal">
+            <img src="img/principal.png" alt="Imagen Principal">
             <div class="texto-principal">
-                <h2>Tejiendo Lazos</h2>
-                <p>Aquí encontrarás información detallada sobre adopciones y cómo puedes contribuir a hacer la diferencia. Desde los pasos iniciales para adoptar hasta cómo apoyar a organizaciones que se dedican a encontrar hogares para aquellos que más lo necesitan. Te guiaremos a través del proceso, responderemos a tus preguntas, y te brindaremos recursos para que puedas participar activamente en este noble acto de amor. Juntos, podemos crear un futuro mejor para todos los que están buscando un hogar lleno de cariño. ¡Descubre cómo puedes ayudar hoy mismo!</p>
+                <h2>Lorem ipsum dolor, sit amet consectetur</h2>
+                <h3>texto texto texto</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur incidunt magnam iure sapiente similique quae alias unde, labore suscipit, sequi tempore soluta repellat quidem amet, eius dolorem. Non, assumenda qui.</p>
                 <a href="#" class="boton">Leer mas</a>
             </div>
         </div>
@@ -36,36 +36,38 @@
         <div id="contenedor-principal">
             <section id="contenido">
                 <h2>Bienvenidos a nuestro sitio</h2>
-                <p>Este es un blog dedicado a la adopción de mascotas. Aquí encontrarás historias inspiradoras y consejos útiles.</p>
+                <p class="negrita-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro dolore nostrum ipsum consectetur dignissimos labore eaque enim aspernatur sequi? Natus, eos consectetur. Nam ab quasi dicta quos, voluptas voluptate qui..</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class ultrices tristique netus, euismod dapibus ad turpis orci risus sem fringilla cum himenaeos etiam, lobortis per elementum non a sociosqu penatibus vel mattis lacinia</p>
                 <ul>
-                    <p>Numeros para mas informacion</p>
-                    <li>159753624</li>
-                    <li>12345-9867</li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipiscing elit inceptos.</li>
+                    <li>Mi vehicula eleifend vitae, cubilia inceptos hac justo, ultrices venenatis.</li>
                     <li>75335-9512</li>
-                    <li>89765-45769</li>
+                    <li>Est nisi orci fusce porttitor mus, taciti tristique torquent.</li>
                 </ul>
-                <p>Adoptar una mascota no solo brinda un hogar a un animal que lo necesita, sino que también enriquece nuestras vidas con amor y compañía incondicional. A través de este sitio, queremos inspirarte a dar ese gran paso, ofreciéndote recursos, consejos, y las historias de éxito de aquellos que ya han encontrado a su amigo peludo ideal. ¡Únete a nuestra comunidad y descubre el impacto positivo que una mascota puede tener en tu vida!</p>
                 <div class="texto-linea-vertical">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, architecto ducimus? Velit suscipit vel repellendus quod obcaecati, aliquid ea, magnam sunt accusantium dolore reprehenderit exercitationem qui rem perspiciatis tempora temporibus!</p>
                 </div>
             </section>
                 <!--Noticias Recientes-->
                 <section id="noticias">
-                    <h2>Adopciones Recientes</h2>
+                    <h2>Latest News</h2>
                     <article>
-                        <img src="img/noticia1.jpeg" alt="Adopcion Reciente 1">
-                        <h3>Titulo Noticia</h3>
-                        <p>Descripcion Noticia</p>
+                        <img src="img/img1.jpeg" alt="">
+                        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                        <h4>SEP 12,2024</h4>
+                        <p>Nam Lorem ipsum dolor,. Voluptas, quaerat dicta officia ab sunt eveniet, nostrum </p>
                     </article>
                     <article>
-                        <img src="img/noticia2.jpeg" alt="Adopcion Reciente 2">
-                        <h3>Titulo Noticia</h3>
-                        <p>Descripcion Noticia</p>
+                        <img src="img/img2.jpeg" alt="">
+                        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                        <h4>SEP 12,2024</h4>
+                        <p>Nam Lorem ipsum dolor,. Voluptas, quaerat dicta officia ab sunt eveniet, nostrum </p>
                     </article>
                     <article>
-                        <img src="img/noticia3.jpeg" alt="Adopcion Reciente 3">
-                        <h3>Titulo Noticia</h3>
-                        <p>Descripcion Noticia</p>
+                        <img src="img/img3.jpeg" alt="">
+                        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                        <h4>SEP 12,2024</h4>
+                        <p>Nam Lorem ipsum dolor,. Voluptas, quaerat dicta officia ab sunt eveniet, nostrum </p>
                     </article>
                 </section>
         </div>
@@ -73,7 +75,7 @@
     <!--Pie de Pagina-->
     <footer>
     <div>
-        <h3>Servicios</h3>
+        <h3>Services</h3>
         <ul>
             <li><a href="#">Lorem ipsum dolor</a></li>
             <li><a href="#">Cum sociis</a></li>
@@ -83,7 +85,7 @@
         </ul>
     </div>
     <div>
-        <h3>Acerca de</h3>
+        <h3>About</h3>
         <ul>
             <li><a href="#">Nullam quis</a></li>
             <li><a href="#">Sed consequat</a></li>
@@ -93,7 +95,7 @@
         </ul>
     </div>
     <div>
-        <h3>Enlaces útiles</h3>
+        <h3>Cool Links</h3>
         <ul>
             <li><a href="#">Aenean vulputate</a></li>
             <li><a href="#">Etiam ultricies</a></li>
@@ -103,7 +105,7 @@
         </ul>
     </div>
     <div>
-        <h3>Contacto</h3>
+        <h3>Contact</h3>
         <ul>
             <li><a href="#">Donec quam</a></li>
             <li><a href="#">Nulla consequat</a></li>
@@ -113,7 +115,7 @@
         </ul>
     </div>
     <div>
-        <h3>Socios</h3>
+        <h3>Partners</h3>
         <ul>
             <li><a href="#">Plantillas CSS</a></li>
             <li><a href="#">Sitios Flash</a></li>
