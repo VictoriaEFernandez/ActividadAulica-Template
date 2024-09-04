@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template-UCP</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <!--Encabezado-->
     <header>
-        <h1>Simple</h1>
+        <div class="logo">
+            <h1>Simple</h1>
+            <p> Your tagline goes here</p>
+        </div>
         <nav> <!--Menu de navegacion-->
             <ul>
-                <li><a href="#">Home </a></li>
+                <li><a href="#" class="activate">Home </a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Company</a></li>
@@ -27,7 +30,6 @@
             <img src="img/principal.png" alt="Imagen Principal">
             <div class="texto-principal">
                 <h2>Lorem ipsum dolor, sit amet consectetur</h2>
-                <h3>texto texto texto</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur incidunt magnam iure sapiente similique quae alias unde, labore suscipit, sequi tempore soluta repellat quidem amet, eius dolorem. Non, assumenda qui.</p>
                 <a href="#" class="boton">Leer mas</a>
             </div>
@@ -35,13 +37,12 @@
         </section>
         <div id="contenedor-principal">
             <section id="contenido">
-                <h2>Bienvenidos a nuestro sitio</h2>
-                <p class="negrita-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro dolore nostrum ipsum consectetur dignissimos labore eaque enim aspernatur sequi? Natus, eos consectetur. Nam ab quasi dicta quos, voluptas voluptate qui..</p>
+                <h2>Welcome to our website</h2>
+                <p class="negrita-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. dolore nostrum ipsum consectetur dignissimos labore eaque enim aspernatur sequi? Natus, eos consectetur. Nam ab quasi dicta quos, voluptas voluptate qui..</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class ultrices tristique netus, euismod dapibus ad turpis orci risus sem fringilla cum himenaeos etiam, lobortis per elementum non a sociosqu penatibus vel mattis lacinia</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur, adipiscing elit inceptos.</li>
                     <li>Mi vehicula eleifend vitae, cubilia inceptos hac justo, ultrices venenatis.</li>
-                    <li>75335-9512</li>
                     <li>Est nisi orci fusce porttitor mus, taciti tristique torquent.</li>
                 </ul>
                 <div class="texto-linea-vertical">
